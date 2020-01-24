@@ -18,6 +18,8 @@ from django.urls import include, path
 from django.conf.urls import url
 from entropy.views import home, pseudostatic
 from django.contrib.auth import views as auth_views
+from django.conf import settings
+from django.conf.urls.static import static
 
 
 urlpatterns = [
@@ -28,5 +30,4 @@ urlpatterns = [
     url(r'^logout/$', auth_views.LogoutView.as_view(), name='logout'),
     url(r'^oauth/', include('social_django.urls', namespace='social')),  # <--
     url(r'^admin/', admin.site.urls),
-
-]
+] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
