@@ -4,6 +4,8 @@ from django.http import HttpResponse
 from django.views.decorators.csrf import csrf_exempt
 from twentropy.models import Hacker 
 import os
+from django.conf import settings
+
 
 @csrf_exempt
 def home(request):
@@ -15,7 +17,7 @@ def home(request):
         posted = 0
         if request.method == 'POST':
             #Hacker(name=request.POST.get('name'), email=request.POST.get('email'), phone=request.POST.get('phone'), text=request.POST.get('message')).save()
-            fd = os.open( "/var/www/hacksinahurry/hacksinahurry/users.txt", os.O_RDWR)
+            fd = os.open( settings.BASE_DIR + "/users.txt", os.O_RDWR)
             line = str.encode(request.POST.get('email', '') + "," + request.POST.get('name', '') + "," + request.POST.get('phone', '') + "," + request.POST.get('message','') )
             print(line)
             numBytes = os.write(fd, line) 
