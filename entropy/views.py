@@ -26,5 +26,8 @@ def home(request):
         return render(request, 'index.html', {'posted': posted} )
         #return HttpResponse("Hello there world.")
 
+def hacki(request):
+    return render(request, 'hacki.html', {} )
+
 def pseudostatic(request):
         return HttpResponse("Hello")

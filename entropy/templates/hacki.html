@@ -11,12 +11,12 @@
   <title>Hacks in a Hurry</title>
 
   <!-- Custom fonts for this theme -->
-  <link href="static/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="/static/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
 
   <!-- Theme CSS -->
-  <link href="static/freelancer.min.css" rel="stylesheet">
+  <link href="/static/freelancer.min.css" rel="stylesheet">
 
 </head>
 
@@ -25,7 +25,7 @@
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
     <div class="container">
-      <a class="navbar-brand js-scroll-trigger" href="#page-top">Hacks in a Hurry!</a>
+      <a class="navbar-brand js-scroll-trigger" href="/">Hacks in a Hurry!</a>
       <button class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         Menu
         <i class="fas fa-bars"></i>
@@ -35,13 +35,13 @@
                 {% comment %}<li class="nav-item mx-0 mx-lg-1">
             <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">Portfolio</a>
           </li>
-          {% endcomment %}
           <li class="nav-item mx-0 mx-lg-1">
             <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">About</a>
           </li>
           <li class="nav-item mx-0 mx-lg-1">
             <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">Submit a Topic</a>
           </li>
+          {% endcomment %}
         </ul>
       </div>
     </div>
@@ -50,9 +50,6 @@
   <!-- Masthead -->
   <header class="masthead bg-primary text-white text-center">
     <div class="container d-flex align-items-center flex-column">
-
-      <!-- Masthead Avatar Image -->
-      {% comment %}<img class="masthead-avatar mb-5" src="img/avataaars.svg" alt="">{% endcomment %}
 
       <!-- Masthead Heading -->
       <h1 class="masthead-heading text-uppercase mb-0">Hacks in a Hurry</h1>
@@ -65,16 +62,8 @@
         </div>
         <div class="divider-custom-line"></div>
       </div>
-      <!-- Masthead Subheading -->
-      <p class="masthead-subheading font-weight-light mb-0">Calling all Hardware, Software, Design, and Entrepreneurship Professionals!</p>
-      <p>A team of MIT students is planning an intense series of hackathons for the busiest among us.</p>
-      <p> 
-                       Food, friends, and fun!<br/><br/>
-	<strong><a class='btn btn-xl btn-outline-light'  href='https://forms.gle/rLszJ1bREXbJR8in9' target='_blank'>Pre-Register for Hack II</a></strong>
-	
-      </p>
-                
-        <img STYLE='max-width: 500px;' src='static/HacksInAHurryTransparent.png'>
+
+      <p class="masthead-subheading font-weight-light mb-0">Results from Hack I: 2/6/2020</p>
     </div>
   </header>
   <!-- Portfolio Section -->
@@ -82,7 +71,7 @@
     <div class="container">
 
       <!-- Portfolio Section Heading -->
-      <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Portfolio</h2>
+      <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Concept</h2>
 
       <!-- Icon Divider -->
       <div class="divider-custom">
@@ -93,256 +82,38 @@
         <div class="divider-custom-line"></div>
       </div>
 
-      <!-- Portfolio Grid Items -->
-      <div class="row">
-          <!-- Portfolio Item 1 -->
-        <div class="col-md-6 col-lg-4">
-          <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal1">
-            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-              <div class="portfolio-item-caption-content text-center text-white">
-                <i class="fas fa-plus fa-3x"></i>
-              </div>
-            </div>
-	    {% comment %}<iframe width="560" height="315" src="https://www.youtube.com/embed/DlZycWNw0mE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>{%endcomment%}
-	    
-	    <a  target='_blank' href='/hacki/'><img class="img-fluid" src="/static/Hack-I-Video.png" alt="">
-	    Hack I (Feb. 6 2020) Results: "Agenda" triumphs over "Grizzly Versus Gorilla"</a>
-          </div>
-        </div>
+        <p>
+        <strong>The Rules:</strong>
+        Using all the materials available at the <a href='https://seattlemakers.org/'>Seattle Maker Space</a>, build a <em>board game</em> based on the theme of <em>voting</em>.  This could be interpreted as loosely or tightly as teams desired.  Teams had exactly two hours, at which point they had to pitch judges who were evaluating based  on three criteria:
+        <ol>
+                <li><strong>Quality</strong> Overall quality of the final project.</li>
+                <li><strong>Creativity</strong> How creative was the presented solution.</li>
+                <li><strong>Comprehensiveness</strong> Did the project make good use of the available resources.</li>
 
+        </ol>
+        </p>
+        <p>Two teams ultimately submitted projects for review.  The winning team was <strong>Agenda</strong> <em>“The Game of Voting on Agendas… Public and Hidden!”</em>.  Their final project included detailed rules, along with 3-d printed tokens and wireframes of the accompanying app.
+        <center>
+                <a href='https://docs.google.com/document/d/1SErFDz06UuWIBzU6GUMcT-XfYtdeFOAABs_Acectxuk/edit'><img src='/static/Hack-I-Agenda.png' style='max-width: 500px;'></a>
+        </center>
+        </p>
+        <p>
+        The second place team attempted to resolve the age-old "Silverback Gorilla" versus "Grizzly Bear" dilemma through the point of view of a neutral third party Penguin arbiter.  The rules were a variant of the popular <a href='https://en.wikipedia.org/wiki/Dots_and_Boxes' target='_blank'>"Squares" game</a> but played out on an electoral map of the United States, to adhere to the voting theme.  The team built a special die which would display random numbers on each face to determine the number of lines the player could add each turn.  The blueprint for the map was generated and partially laser cut into a demo of the game board.
+        <br/><br/>
+        <img src='/static/USA-Pegs.png' style='max-width: 500px;'>
+        <br/><br/>
+        <img src='/static/USA-Printed.png' style='max-width: 500px;'>
+        </p>
+        <p>
+        The winning team will receive a 3-D printed customized trophy.  All teams enjoyed food, a massive boost in their skill set, healthy competition, and good friends.  Join us for our next Hacks in a Hurry scheduled for March.
+        </p>
+	<p>
 
-        <!-- Portfolio Item 1 -->
-        <div class="col-md-6 col-lg-4">
-          <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal1">
-            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-              <div class="portfolio-item-caption-content text-center text-white">
-                <i class="fas fa-plus fa-3x"></i>
-              </div>
-            </div>
-	    {% comment %}<iframe width="560" height="315" src="https://www.youtube.com/embed/DlZycWNw0mE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>{%endcomment%}
-	    
-	    <a  target='_blank' href='https://www.youtube.com/watch?v=DlZycWNw0mE&feature=youtu.be'><img class="img-fluid" src="static/VideoThumbnail.png" alt="">
-	    Proof of Concept: Watch this website get made in an hour: https://youtu.be/DlZycWNw0mE</a>
-          </div>
-        </div>
-
-        <!-- Portfolio Item 2 -->
-        <div class="col-md-6 col-lg-4">
-          <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal2">
-            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-              <div class="portfolio-item-caption-content text-center text-white">
-                <i class="fas fa-plus fa-3x"></i>
-              </div>
-            </div>
-            <img class="img-fluid" src="static/HacksInAHurryTransparent.png" alt="">
-	   
-          </div>
-        </div>
-        {% comment %}
-        <!-- Portfolio Item 3 -->
-        <div class="col-md-6 col-lg-4">
-          <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal3">
-            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-              <div class="portfolio-item-caption-content text-center text-white">
-                <i class="fas fa-plus fa-3x"></i>
-              </div>
-            </div>
-            <img class="img-fluid" src="static/Makeathon.jpg" alt="">
-          </div>
-        </div>
-        {% endcomment %}
-  {% comment %}
-        <!-- Portfolio Item 4 -->
-        <div class="col-md-6 col-lg-4">
-          <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal4">
-            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-              <div class="portfolio-item-caption-content text-center text-white">
-                <i class="fas fa-plus fa-3x"></i>
-              </div>
-            </div>
-            <img class="img-fluid" src="img/portfolio/game.png" alt="">
-          </div>
-        </div>
-
-        <!-- Portfolio Item 5 -->
-        <div class="col-md-6 col-lg-4">
-          <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal5">
-            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-              <div class="portfolio-item-caption-content text-center text-white">
-                <i class="fas fa-plus fa-3x"></i>
-              </div>
-            </div>
-            <img class="img-fluid" src="img/portfolio/safe.png" alt="">
-          </div>
-        </div>
-
-        <!-- Portfolio Item 6 -->
-        <div class="col-md-6 col-lg-4">
-          <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal6">
-            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-              <div class="portfolio-item-caption-content text-center text-white">
-                <i class="fas fa-plus fa-3x"></i>
-              </div>
-            </div>
-            <img class="img-fluid" src="img/portfolio/submarine.png" alt="">
-          </div>
-        </div>
-
-  {% endcomment %}
-      </div>
-      <!-- /.row -->
-
+	    <a  target='_blank' href='https://www.twitch.tv/videos/548024776'><img class="img-fluid" src="/static/Hack-I-Video.png" alt="">
+	</p>
     </div>
   </section>
 
-
-  <!-- Contact Section -->
-  <section class="page-section" id="contact">
-    <div class="container">
-
-      <!-- Contact Section Heading -->
-      <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Submit a Topic</h2>
-
-      <!-- Icon Divider -->
-      <div class="divider-custom">
-        <div class="divider-custom-line"></div>
-        <div class="divider-custom-icon">
-          <i class="fas fa-star"></i>
-        </div>
-        <div class="divider-custom-line"></div>
-      </div>
-
-      <!-- Contact Section Form -->
-      <div class="row">
-        <div class="col-lg-8 mx-auto">
-          <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
-          {% if posted %}
-          <center><strong>Thank you!  We received your post!</strong></center>
-          {% else %}
-          <form action='' method='post'>
-            <div class="control-group">
-              <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                <label>Name</label>
-                <input class="form-control" id="name" type="text" placeholder="Name" name='name' required="required" data-validation-required-message="Please enter your name.">
-                <p class="help-block text-danger"></p>
-              </div>
-            </div>
-            <div class="control-group">
-              <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                <label>Email Address</label>
-                <input class="form-control" id="email" type="email" placeholder="Email Address" name='email' required="required" data-validation-required-message="Please enter your email address.">
-                <p class="help-block text-danger"></p>
-              </div>
-            </div>
-            <div class="control-group">
-              <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                      <label>Optional: Suggest a Hackathon Topic</label>
-                <textarea class="form-control" id="message" rows="5" placeholder="Suggest a Hackathon Topic" name='message' required="required" data-validation-required-message="Please enter a message."></textarea>
-                <p class="help-block text-danger"></p>
-              </div>
-            </div>
-            <br>
-            <div id="success"></div>
-            <div class="form-group">
-              <button type="submit" class="btn btn-primary btn-xl" id="sendMessageButton">Send</button>
-            </div>
-          </form>
-               {% endif %}
-          {% comment %}  <center><a href='https://forms.gle/g2ixAme1wnAyugjM9'>Click Here</a></center> {% endcomment %}
-        </div>
-      </div>
-
-    </div>
-  </section>
-  <!-- About Section -->
-  <section class="page-section bg-primary text-white mb-0" id="about">
-    <div class="container">
-
-      <!-- About Section Heading -->
-      <h2 class="page-section-heading text-center text-uppercase text-white">About</h2>
-
-      <!-- Icon Divider -->
-      <div class="divider-custom divider-light">
-        <div class="divider-custom-line"></div>
-        <div class="divider-custom-icon">
-          <i class="fas fa-star"></i>
-        </div>
-        <div class="divider-custom-line"></div>
-      </div>
-
-      <!-- About Section Content -->
-      <div class="row">
-        <div class="col-lg-4 ml-auto">
-                 <P class="lead">Instead of spending a full weekend hacking, see what you can get done in one hour.  Submit topic suggestions ahead of time.
-                
-        </div>
-        <div class="col-lg-4 mr-auto">
-          <p class="lead">
-Topic will be announced at the door, so everybody has an equal footing.
-
-                Pencils down after intense hacking session -- winners selected based on creativity, progress within an hour, and overall solution.
-	<br/>
-</p>
-        </div>
-      </div>
-      <!-- About Section Button -->
-      <div class="text-center mt-4">
-	<h4>FAQs in a Hurry</h4>
-	
-	<p style='text-align: left;'><strong>What is hacks in a hurry?</strong>
-	<br/>
-	We are a team of MIT students trying to "hack" the concept of hackathons to correct some of the problems.  In particular, we dislike: (1) the requirement of spending an entire weekend and (2) people who try to pass off years of research as a weekend worth of work.  We're pioneering the concept of ultra-fast hackathons to see if this improves on the concept.
-	</p>
-
-
-	<p style='text-align: left;'><strong>What can you get done in an hour?</strong>
-	<br/>
-	If you're a lawyer, you can earn hundreds of dollars!  If you're a hacker, you can also accomplish a lot.  We built this website in an hour to prove the concept.  We'll be sharing some additional projects that we've completed in just an hour or two as we approach the hack date to provide inspiration.  We feel that what is important is not producing a perfect product, but ideation and validating a proof of concept before you go too far. 
-	</p>
-
-<p style='text-align: left;'><strong>What if I need more time?</strong>
-	<br/>
-After an hour or two you should be able to formulate an idea and sharpen it enough to where you can share whatever you have.  If your team gets a demo working then you are elite and we will probably feature you on our site for years to come.  We will also be happy to see a PowerPoint presentation or just a short talk about how you would attack the concept.  If you like your team and your direction, you might find you want to keep working on the project even after the hackathon officially ends.
-	</p>
-
-<p style='text-align: left;'><strong>Who is invited?</strong>
-	<br/>
-We would like to encourage anybody, regardless of technical expertise, to attend as long as you are interested in contributing to a team's success.  Our inaugural hackathon will be hosted by Seattle Makers, to provide extra incentive for people who are gifted with mechanical or hardware capabilities to join.  We will be working to select a topic that is also friendly for non-hardware skills, so people who are gifted in software, design, or entrepreneurship skills can also add value.	
-</p>
-
-
-<p style='text-align: left;'><strong>What is the topic?</strong>
-	<br/>
-	<a href='http://hacksinahurry.com/#contact' style='color: #FFF;'>We will be crowdsourcing topics on our website</a>, and for people who follow us and register early we may even allow some possible topics to leak.  However, the actual topic will not be disclosed until you arrive at the hackathon, so all parties have the benefit of starting from equal footing.  Please submit one or many topics!  We will be looking for topics that are broad enough to cater to a wide variety of skill sets (ie, utilizes the tools available at Seattle Maker).  Bonus points if the topic has the effect of improving humanity or the world.
-</p>
-
-
-
-<p style='text-align: left;'><strong>How can I win?</strong>
-	<br/>
-At the conclusion of hacking, ~2 hours, all teams will have the opportunity to briefly present their results.  Judges will be scoring on the completeness, uniqueness, and effectiveness of the final solution.  Winners will receive prizes to be announced at the event.  Even if you don't win, we will be providing food and some access to many of the cool tools at the space.
-</p>
-
-
-<p style='text-align: left;'><strong>What if I can't attend?</strong>
-	<br/>
-	We plan to live stream this on our <a href='https://www.twitch.tv/hacksinahurry'>Twitch channel</a>, so follow along and contribute online!
-</p>
-
-
-
-
-
-
-
-
-	{% comment %}    <a class="btn btn-xl btn-outline-light" href="https://startbootstrap.com/themes/freelancer/">
-          <i class="fas fa-download mr-2"></i>
-        </a>
-	{% endcomment %}
-      </div>
-    </div>
-  </section>
 
 
   <!-- Footer -->
@@ -423,7 +194,7 @@ At the conclusion of hacking, ~2 hours, all teams will have the opportunity to b
             <div class="row justify-content-center">
               <div class="col-lg-8">
                 <!-- Portfolio Modal - Title -->
-                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Hack I: 2/6/2020</h2>
+                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">HTML in a Hurry</h2>
                 <!-- Icon Divider -->
                 <div class="divider-custom">
                   <div class="divider-custom-line"></div>
@@ -433,10 +204,10 @@ At the conclusion of hacking, ~2 hours, all teams will have the opportunity to b
                   <div class="divider-custom-line"></div>
                 </div>
                 <!-- Portfolio Modal - Image -->
-                <a href='/hacki/' target='_blank'><img src='/static/Hack-I-Video.png' style='max-width: 500px;'></a>
+	    <iframe width="560" height="315" src="https://www.youtube.com/embed/DlZycWNw0mE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 <!-- Portfolio Modal - Text -->
                 <p class="mb-5">
-		<a href='/hacki/' target='_blank'>See Results From Hack I</a>
+		<a href='https://youtu.be/DlZycWNw0mE' target='_blank'>Proof of Concept: Watch this website get made in an hour: https://youtu.be/DlZycWNw0mE</a>
 		</p>
                 <button class="btn btn-primary" href="#" data-dismiss="modal">
                   <i class="fas fa-times fa-fw"></i>
